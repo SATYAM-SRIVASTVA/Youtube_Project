@@ -1,0 +1,74 @@
+ 
+.navbar-wrapper{
+     padding:0 1rem;
+   
+}
+
+.nav-logo{
+    padding: 0;
+    padding-left: 4rem;
+}
+.nav-logo>img{
+    border-radius: 10px;
+    height: 5.4rem;
+}
+ 
+ .search-cont{
+     border: 1px solid grey;
+      border-radius: 17px;
+     background-color: white;
+      margin-top: 0.1rem;
+      width: 25rem;
+      height: 3.3rem;
+      margin-right: 2rem;
+      box-shadow: 0 4px 8px 0 rgba(64, 64, 64, 0.2), 0 6px 20px 0 rgba(53, 53, 53, 0.19);
+ }
+.nav-ul{
+    position: relative;
+    width: 100%;
+    margin-left: 20rem;
+ }
+.nav-ul>li{
+    margin: 0 3rem;
+    font-size: 1.5rem;
+     
+}
+
+.nav-ul>li>a{
+    color: white;
+    font-weight: 600;
+}
+
+.login-li{
+    
+    background-color: rgb(254,87,34);
+    color: white;
+    width: 8rem;
+    height: 3.3rem;
+    box-shadow: 0 4px 8px 0 rgba(64, 64, 64, 0.2), 0 6px 20px 0 rgba(53, 53, 53, 0.19);
+
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.login-li:hover{
+    color: white;
+    transform: scale(1.1);
+}
+ .search-cont>input{
+     border: none;
+     margin-left: 1rem;
+     font-size: 1.5rem;
+     
+ }
+.search-cont>input{
+    border: none;
+    text-decoration: none;
+}
+ .search-icon{
+     margin:0 1rem;
+     font-size: 3rem;
+     
+ }
